@@ -17,7 +17,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/kube2iam
+          images: ${{ secrets.DOCKERHUB_REPO }}/kube2iam
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
       - name: Set up Docker Buildx
