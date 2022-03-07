@@ -15,3 +15,7 @@ A stands for Adobe's changes
 
 # Changelog
 
+## Mar 7, 2022 - 0.10.11-1.0.0-adobe
+
+- add flag to optionally block ec2 metadata proxy ([#4](https://github.com/adobe/kube2iam/pull/4))
+- Include the externalID in the cache key ([#5](https://github.com/adobe/kube2iam/pull/5))
